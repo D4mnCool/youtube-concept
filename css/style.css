@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  padding: 20px 70px 20px 32px;
+  margin: 0px 0px 0px 0px;
+}
+.menu-button {
+  cursor: pointer;
+  margin: 0px 28px 0px 0px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20px;
+  height: 17px;
+  background-color: #fff;
+  border: none;
+}
+
+.menu-line {
+  display: block;
+  width: 20px;
+  height: 3px;
+  background-color: rgba(31, 32, 34, 1);
+  border-radius: 20px;
+}
+.logo {
+  margin: 0px 59px 0px 0px;
+}
+
+.input-group {
+  background-color: rgba(235, 235, 235, 1);
+  border-radius: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 17px 0px 0px;
+  max-width: 830px;
+  width: 50%;
+}
+.input-search {
+  background-color: transparent;
+  border: none;
+  padding: 12px 23px 12px 23px;
+}
+.button-search {
+  padding: 0px 0px 0px 0px;
+  border: none;
+  width: 19px;
+  height: 19px;
+  background-color: transparent;
+  cursor: pointer;
+}
+.icon-search {
+  fill: rgba(31, 32, 34, 1);
+}
+.icons {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.icons-link {
+  text-decoration: none;
+  opacity: 0.24;
+}
+.icons-link:hover {
+  opacity: 0.8;
+}
+.icons-link:not(:last-child) {
+  /* margin: 0px 50px 0px 0px; */
+  margin-right: 50px;
+}
+/* .icon-video {
+  opacity: 0.24;
+} */
+/* !на потом */
+/* .icon-video:hover {
+  opacity: 0.8;
+} */
+/* .icon-apps {
+  opacity: 0.24;
+}
+.icon-notification {
+  opacity: 0.24;
+} */
+.user {
+  margin: 0px 0px 0px 45px;
+}
+.user-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
